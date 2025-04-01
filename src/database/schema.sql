@@ -14,3 +14,8 @@ INSERT INTO users (name, email) VALUES
     ('Eduardo Correia', 'eduardo.correia@email.com'),
     ('Felipe Santos', 'felipe.santos@email.com');
     
+INSERT INTO posts (user, conteudo) VALUES 
+    ('Thiago Ferreira', 'Post de banco de dados.'),
+    ('Marcelo Carboni', 'Post sobre html e css.'),
+    ('Eduardo Correia', 'Post sobre Front-End.'),
+    ('Felipe Santos', 'Post sobre Back-End.');
